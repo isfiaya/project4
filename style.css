@@ -16,6 +16,7 @@ button {
 ul li{
     padding: 10px;
 }
+
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -699,6 +700,11 @@ a {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: block;
+}
+
+a:hover{
+    color:#b93c00;
 }
 
 h2 {
@@ -818,6 +824,11 @@ h4 {
 
 .bg-atlanta-20made-20sign-20orange {
     background-image: url("img/atlanta%20made%20sign%20orange.jpg");
+}
+
+.img-resizable{
+    display: inline-block;
+    max-width: 90%;
 }
 
 @media (max-width: 1024px) {
