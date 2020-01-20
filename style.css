@@ -11,8 +11,11 @@ a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
+    color: white;
 }
-
+ul li{
+    padding: 10px;
+}
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -639,7 +642,6 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-h1,
 h2,
 h3,
 h4,
@@ -650,8 +652,7 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 400;
-    color: #575757!important;
+    font-weight: 700;
 }
 
 .container {
@@ -674,10 +675,6 @@ a {
     font-weight: lighter;
     max-width: 520px;
     margin: auto auto auto auto;
-}
-
-p {
-    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -720,10 +717,6 @@ h3 {
     max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
-}
-
-h1 {
-    color: #333333!important;
 }
 
 h4 {
@@ -780,17 +773,13 @@ h4 {
     background-color: #F3976C;
 }
 
-.tc-white {
-    color: #364577!important;
-}
-
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #b93c00;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #110a64!important;
     color: #FFFFFF!important;
 }
 
